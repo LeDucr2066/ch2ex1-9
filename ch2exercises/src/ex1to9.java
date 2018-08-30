@@ -1,6 +1,6 @@
 public class ex1to9 {
     public static void main(String[] args) {
-        ex1(); ex2(); ex3();
+        ex1(); ex2(); ex3(); ex4(); ex5(); ex6();
     }
 
     public static void ex1(){
@@ -28,6 +28,31 @@ public class ex1to9 {
             int num1and2 = num1 + num2;
             num1 = num2;
             num2 = num1and2;
+        }
+    }
+
+    public static void ex4(){
+        for(int i = 1;i <= 4;i++){
+            String Stars = "****";
+            System.out.println(Stars);
+        }
+    }
+
+    public static void ex5(){
+        String star = "*";
+        String addstar = "*";
+        for(int i = 1;i <= 4;i++){
+            System.out.println(star);
+            star = star + addstar;
+
+        }
+    }
+
+    public static void ex6(){
+        int i = 1;
+        String stringint = Integer.toString(i);
+        for(i = 1;i <= 7;i++){
+
         }
     }
 }
