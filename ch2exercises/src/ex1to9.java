@@ -1,4 +1,4 @@
-public class ex19 {
+public class ex1to9 {
     public static void main(String[] args) {
         ex1(); ex2(); ex3();
     }
@@ -30,5 +30,4 @@ public class ex19 {
             num2 = num1and2;
         }
     }
-
 }
