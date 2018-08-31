@@ -49,10 +49,9 @@ public class ex1to9 {
     }
 
     public static void ex6(){
-        int i = 1;
-        String stringint = Integer.toString(i);
         for(i = 1;i <= 7;i++){
-
+            System.out.println(i  + Integer.toString(i));
+            }
         }
     }
 }
